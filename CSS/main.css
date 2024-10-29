@@ -1,0 +1,29 @@
+/* main.css */
+body {
+    background-image: url(background.jpg); /* Путь к изображению фона */
+    background-size: cover; /* Покрытие всего экрана */
+    background-attachment: fixed; /* Фиксированный фон при прокрутке */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Без повторения изображения */
+    font-family: 'Arial', sans-serif; /* Стиль шрифта */
+    color: #333; /* Цвет текста */
+}
+
+h1, h2 {
+    color: #fff; /* Белый цвет для заголовков */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для текста */
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон для секций */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный тёмный фон для футера */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
